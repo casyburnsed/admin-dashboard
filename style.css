@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.sidebar {
+    background-color: #0ea5e9;
+    height: 100vh;
+    color: white;
+}
+
+.main {
+    background-color: white;
+    height: 100vh;
+}
+
+.admin-dash {
+   display: flex; 
+   flex-direction: row;
+   justify-content: center; 
+   align-items: center;
+   margin: 20px 0;
+}
+
+.dash-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;  
+    margin-left: 20px;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+    margin: 10px 5px;
+}
+
+p {
+    margin: 0 10px;
+    font-size: x-large;
+
+}
+
+  
